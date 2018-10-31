@@ -1,0 +1,1220 @@
+
+body {
+    background: #ede7e1;
+}
+
+/* Homepage */
+
+/****** Header *****/
+
+
+.headerWrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0;
+}
+
+.overflow {
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+
+}
+
+.index.header-block {
+    background: #31708f;
+    padding: 150px;
+}
+
+.menu-block {
+    margin-top: -95px;
+    margin-left: -200px;
+}
+
+/* This is a hack to stop the padding increasing on the header
+when the responsive menu is clicked */
+.topnav.responsive {
+    margin-bottom: -70px;
+}
+
+/* Hello Future Icon */
+
+.icon-logo {
+    background-image: url(../img/spritesheet.png);
+    background-position: -141px 0;
+    width: 103px;
+    height: 91px;
+    margin-bottom: -100px;
+    margin-left: 60px;
+    display: block;
+    text-indent: -99999px;
+}
+
+@media screen and (max-width: 1500px) {
+
+    h1.icon-logo {
+        margin-left: 50px;
+        margin-top: -100px;
+    }
+}
+
+/****** Nav *******/
+
+.topnav {
+    float: right;
+    margin-right: -150px;
+    margin-top: -20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    width: 150px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.active {
+    background-color: blue;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1050px) {
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+    }
+
+    .topnav {
+        margin-right: -150px;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: block;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .topnav a {
+        width: 110px;
+        padding: 0;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+}
+
+/*** Social Media Links ***/
+
+.social-links {
+    float: right;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 1300px) {
+    .social-links.top {
+        display: none;
+    }
+
+    .topnav {
+        margin-left: 200px;
+    }
+
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-indent: -9999px;
+    display: block;
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.social-links.bottom {
+    margin-left: -300px;
+    margin-right: -200px;
+}
+
+.icon-button-fb {
+    background-image: url(../img/spritesheet.png);
+    background-position: -249px -118px;
+}
+
+.icon-button-tt {
+    background-image: url(../img/spritesheet.png);
+    background-position: -43px -198px;
+}
+
+.icon-button-in {
+     background-image: url(../img/spritesheet.png);
+     background-position: 0 -198px
+ }
+
+.icon-button-git {
+    background-image: url(../img/spritesheet.png);
+    background-position: -86px -198px;
+}
+
+
+
+h1.banner-title {
+    color: white;
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+h1.banner-title ul {
+    list-style-type: none;
+    margin-top: 250px;
+}
+
+h1.banner-title ul li {
+    margin-left: -120px;
+}
+
+@media screen and (max-width: 1350px) {
+    h1.banner-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    h1.banner-title {
+        font-size: 18px;
+    }
+
+    h1.banner-title ul {
+        margin-top: 200px;
+        margin-left: -250px;
+    }
+}
+
+.block {
+    padding: 0.5rem 0 0.5rem 0;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.block ul li {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+
+/******** Showcase Block (Index Page) ********/
+
+
+.showcase-block {
+    background-color: #bcdff1;
+    padding-top: 40px;
+}
+
+.case-study-showcase h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.showcase-title {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.showcase-content {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.showcase-image {
+    margin-top: 80px;
+    width: 75%;
+    margin-left: 45px;
+}
+
+.showcase.block h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.showcase-1 {
+    margin-top: -60px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .showcase-image {
+        margin-left: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+
+    .dijon-charities {
+        margin-top: 260px;
+        margin-left: -500px;
+    }
+
+
+    .image-wrapper {
+        float: left;
+        width: 80%;
+        margin-left: -180px;
+    }
+
+    .showcase-content {
+        float: right;
+        width: 70%;
+        margin-right: -170px;
+        margin-top: -375px;
+    }
+
+    .showcase-title.dijon {
+        font-size: 30px;
+        margin-top: -200px;
+        margin-left: 80px;
+    }
+
+    .showcase-title {
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
+    .showcase-1,.showcase-2,.showcase-3 {
+        margin-bottom: 80px;
+    }
+    
+    .dijon-quote {
+        margin-top: 80px;
+        margin-left: -560px;
+    }
+}
+
+.dijon-logo {
+    width: 30%;
+    float: left;
+}
+
+.dijon-block {
+    margin-top: 60px;
+    margin-left: -10px;
+}
+
+.dijon-block h4 {
+    font-size: 12px;
+}
+
+.dijon-charities h3 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.dijon-quote {
+    background: white;
+    margin-top: -30px;
+}
+
+.dijon-charities img {
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+
+.dijon-quote h3 {
+    padding-top: 30px;
+    margin-top: 45px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dijon-quote p {
+    font-size: 20px;
+}
+
+.irc-image {
+    padding-bottom: 20px;
+}
+
+.clients-block {
+    background-color: white;
+}
+
+.clients-block h2 {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.clients-block li {
+    list-style: none;
+}
+
+.companies {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.brightpearl {
+    margin-left: -2px;
+    width: 300px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .column {
+        width: 50%;
+    }
+
+    .row.companies:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@media screen and (min-width: 1204px) {
+
+    .column {
+        float: left;
+        width: 33.33%;
+    }
+
+    /* Clear floats after the columns */
+    .row.companies:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .column.one {
+        margin-left: -200px;
+    }
+
+    .column.two {
+        margin-left: 100px;
+    }
+
+    .column.three {
+        margin-left: 100px;
+    }
+
+    .column.four {
+        margin-left: 800px;
+        margin-top: -600px;
+    }
+
+    .clients-block {
+        margin-left: -180px;
+    }
+
+    .companies {
+        margin-left: -50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .companies {
+        margin-left: -250px;
+        margin-right: -250px;
+        margin-bottom: 50px;
+    }
+
+    .column.four {
+        float: right;
+        margin-left: 1200px;
+    }
+
+}
+
+.aiketz {
+    width: 170px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    margin-top: -40px;
+    background-color: black;
+}
+
+.reason {
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.littoralis {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.moonconsulting {
+    width: 300px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.coull {
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.displaycentre {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.headboard {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.think {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.fscgroup {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.ceilingtiles {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.santini {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-block {
+    padding: 200px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.address-block {
+    margin-left: -155px;
+    margin-top: 30px;
+    list-style-type: none;
+    color: white;
+}
+
+@media screen and (min-width: 755px) {
+    .address-block {
+        font-size: 20px;
+        margin-left: -100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .address-block {
+        font-size: 25px;
+        margin-left: -50px;
+    }
+}
+
+.contact-text {
+    font-size: 18px;
+    color: white;
+    margin-left: -150px;
+    margin-right: -120px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 755px) {
+    .contact-text {
+        font-size: 25px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-text {
+        font-size: 35px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
+
+.footer-menu {
+    margin-top: -150px;
+    margin-left: -10px;
+    margin-right: -140px;
+    font-size: 10px;
+}
+
+.footer-menu li {
+    list-style-type: none;
+}
+
+.footer-menu li a {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 755px) {
+
+    .footer-menu {
+        margin-left: 300px;
+        margin-top: -180px;
+    }
+
+    .footer-menu li a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-menu {
+        margin-left: 450px;
+        margin-top: -220px;
+    }
+
+    .footer-menu li a {
+        font-size: 25px;
+    }
+}
+
+/*a {
+	color: #AEE239;
+}*/
+
+
+
+/********* Linked Pages *******/
+
+/********* About Us *********/
+
+.template.header-block {
+    background: green;
+    padding: 150px;
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-description {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+div.team.text {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+    position: fixed;
+}
+
+.team.text h2 {
+    color: white;
+}
+
+.team-member {
+    padding-top: 25px;
+}
+
+.profile {
+    margin-left: -20px;
+    text-align: center;
+    margin-top: -70px;
+    width: 100%;
+}
+
+.profile-btn {
+    padding-top: 20px;
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+div.row.about {
+    margin-bottom: 160px;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .profile h3 {
+        font-size: 30px;
+    }
+}
+
+.profile-summary {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 1990px) {
+    .profile {
+        max-width: 623px;
+    }
+}
+
+/******** What We Do ********/
+
+.container-fluid.top {
+    margin-top: 50px;
+}
+
+.container-fluid.bottom {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+div.what-we-do.text {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+}
+
+.what-we-do.text h2 {
+    color: white;
+}
+
+.product-block h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-summary ul {
+    list-style-type: none;
+}
+
+.managed-hosting-block h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.managed-hosting-block ul {
+    list-style-type: none;
+}
+
+.website-block {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.website-block h2 {
+    margin-bottom: 40px;
+}
+
+.website-block ul {
+    list-style-type: none;
+}
+
+.devops-block {
+   margin-top: -20px;
+}
+
+.devops-block h2 {
+    margin-bottom: 40px;
+}
+
+
+.devops-block ul {
+    list-style-type: none;
+}
+
+/*********** Portfolio *********/
+
+.portfolio.block {
+    margin-top: 60px;
+}
+
+div.portfolio.text {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+}
+
+.portfolio.text h2 {
+    color: white;
+}
+
+.case-study-content {
+    text-align: center;
+    background: white;
+    margin-bottom: 60px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.case-study-title {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.case-study-client-logo {
+    width: 15%;
+    align-items: center;
+}
+
+.case-study-1.main-row {
+    margin-bottom: 250px;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .zoom {
+        transition: transform .5s; /* Animation */
+        padding-bottom: 450px;
+    }
+
+    .zoom:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .image-wrapper {
+        float: left;
+        width: 80%;
+        margin-left: -180px;
+    }
+
+    .case-study-content {
+        float: right;
+        width: 70%;
+        margin-right: -170px;
+        margin-top: -375px;
+    }
+
+    .padding-0 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .case-study-title {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+}
+
+/********** Contact **********/
+
+.row.contact {
+    margin-bottom: 400px;
+}
+
+div.contact-text {
+    margin-bottom: -100px;
+}
+
+.contact-text h2 {
+    color: white;
+}
+
+div.contact-title {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+    color: white;
+}
+
+.contact-block {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.side-block{
+    color: black;
+    background: white;
+}
+
+.address-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.address-list p {
+    font-size: 20px;
+}
+
+.address {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.side-block li,.side-block p {
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+@media only screen and (min-width: 755px) {
+
+    .side-block {
+        width: 50%;
+        float: left;
+    }
+
+    #map {
+        width: 50%;
+        float: right;
+        padding-bottom: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .contact-block {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width: 2350px) {
+
+    .contact-block {
+        max-width: 1600px;
+        margin-left: 600px;
+    }
+}
+
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+.find-us {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 755px) {
+    .find-us {
+        text-align: center;
+        margin-top: -50px;
+        margin-left: 390px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .find-us {
+        margin-left: 590px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .find-us {
+        margin-left: 790px;
+    }
+}
+
+/*** Contact Form ****/
+
+.contact-form {
+    margin-top: -300px;
+    background: #D3D3D3;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-form {
+
+    }
+}
+
+@media screen and (min-width: 2350px) {
+    .contact-form {
+
+    }
+}
+
+.validationOkay {
+    background: #ccffcc;
+}
+
+.validationError {
+    background: #e35152;
+}
+
+.default {
+    background: white;
+}
+
+.nameError, .emailError {
+    display: block;
+}
+
+.nameOkay, .emailOkay {
+    display: none;
+}
+
+.captchaError {
+    display: block;
+}
+
+.captchaOkay {
+    display: none;
+}
+
+
+/*********** Jobs ************/
+
+.jobs-row {
+  background: #ede7e1;
+}
+
+.jobs-block {
+  background: white;
+}
+
+div.jobs-text {
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+}
+
+.jobs-text h2 {
+    color: white;
+    padding-top: 60px;
+}
+
+.jobs-text p {
+  color: white;
+}
+
+.join-title {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.jobs-row {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+
+.jobs.text h2 {
+    color: white;
+}
+
+.jobs-summary {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.jobs-block {
+    background: white;
+    padding: 160px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+p.job-description {
+    margin-left: -150px;
+    margin-right: -120px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.jobs.row.bottom {
+    margin-right: 100px;
+}
+
+.role-four h2 {
+    padding: 10px;
+}
+
+.jobs-block h2 {
+    margin-top: -150px;
+}
+
+p.salary {
+    margin-top: 10px;
+}
+
+.role-one {
+    margin-bottom: 60px;
+}
+
+.role-three {
+    margin-bottom: 60px;
+}
+
+.jobs.row {
+    margin-right: 10px;
+}
+
+.jobs-header {
+    margin-top: 40px;
+    margin-left: -80px;
+    margin-right: -100px;
+}
+
+.jobs-header h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.jobs-header p {
+    text-align: center;
+}
+
+p.job-description {
+    font-size: 15px;
+    margin-left: -130px;
+    text-align: center;
+}
+
+.jobs.row.bottom {
+    margin-top: -130px;
+}
+
+p.salary {
+    text-align: center;
+}
+
+.jobs-text p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+ div.jobs.text {
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+}
+
+.jobs-speculative {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.jobs-speculative h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 850px) {
+
+    .jobs-column {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .jobs-column.top {
+        margin-left: 100px;
+    }
+
+    .role-four {
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+
+    .jobs-speculative h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    div.jobs-block {
+        max-width: 800px;
+    }
+}
+
+.senior.dev.block {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.mid.dev.block {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.project.manager.block {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
