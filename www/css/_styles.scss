@@ -51,3 +51,37 @@
     text-align: center;
   }
 }
+
+.dijon-title {
+  font-family: Source Sans Pro SemiBold;
+  font-size: 35px;
+  .dijon-title-snippet {
+     color:  $color-primary;
+  }
+}
+
+.dijon-description {
+  font-family: Source Sans Pro regular;
+  font-size: 18px;
+  color: #7792AE;
+}
+
+.dijon-projects {
+  li {
+    list-style-type: none;
+    font-family: Source Sans Pro SemiBold;
+    font-size: 20px;
+    margin: $space-1;
+    img {
+      margin-right: $space-1;
+    }
+  }
+}
+
+  .dijon-button {
+    background-color: $color-secondary;
+    color: $white;
+    font-family: Source Sans Pro SemiBold;
+    font-size: 20px;
+    border-radius: 5px;
+  }
