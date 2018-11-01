@@ -1,0 +1,53 @@
+
+.nav-container {
+  .nav-menu {
+  float: right;
+  li {
+    list-style-type: none;
+    display: inline;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    padding: $space-1;
+  }
+ }
+}
+
+.container-1 {
+  background-color: $color-primary;
+}
+.block-1-left {
+  .services-title {
+    font-family: Source Sans Pro;
+    font-size: 49px;
+    color: $white;
+  }
+  .services-description {
+    font-family: Source Sans Pro regular;
+    font-size: 22px;
+    color: $white;
+    margin-top: -5rem;
+  }
+  .services-button {
+    background-color: $color-secondary;
+    color: $white;
+    border-color: #979797;
+    font-family: Source Sans Pro SemiBold;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+}
+
+.quote-container {
+    .services-quote {
+    font-family: Source Sans Pro SemiBold;
+    color: $white;
+    font-size: 39px;
+    text-align: center;
+  }
+  .services-quote-author {
+    font-family: Source Sans Pro regular;
+    font-size: 30px;
+    color: $white;
+    text-align: center;
+  }
+}

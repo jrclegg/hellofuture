@@ -1,0 +1,1 @@
+require('./www/css/global.scss');

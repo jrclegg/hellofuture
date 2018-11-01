@@ -1,0 +1,85 @@
+// COLOURS
+$color-primary: #4193FC;
+$color-secondary: #00E0C4;
+$color-tertiary: #07778E;
+
+$color-link: $color-primary;
+$color-link-hover: lighten($color-link, 7);
+
+$white: #FFF;
+$black: #000;
+
+$grey1:     #111;
+$grey2:     #181e27;
+$grey3:     #363e4a;
+$grey4:     #455560;
+$grey5:     #7b8e9e;
+$grey6:     #cdd7e0;
+$grey7:     #EBEFF2;
+$grey8:     #f9fcfe;
+
+
+$color-message: #fbeb8d;
+$color-info: #cbebfc;
+$color-success: #8cc048;
+$color-error: #e65f5f;
+$color-warning: $color-message;
+$color-danger: $color-error;
+
+// EASING
+$ease-out-expo: cubic-bezier(.19,1,.22,1);
+$ease-in-out: cubic-bezier(1, 0, 0, 1);
+$ease-out-quint: cubic-bezier(0,.85,.33,1.02);
+$ease-out-back: cubic-bezier(.64,-0.14,0, 2);
+$ease-out-circle: cubic-bezier(.79,.14,.15,.86);
+
+
+// FONTS
+$font-path: "../fonts/";
+
+$font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$font-header: Avenir, 'Colfax-Medium', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$font-subheader: $font-body;
+
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 900;
+
+$line-height-body: 1.5;
+$line-height-header: 1.5;
+
+$letter-spacing-body: 1.2px;
+$letter-spacing-header: 0;
+
+
+$space-1: 1rem;
+$space-2: 2rem;
+$space-3: 4rem;
+$space-4: 6rem;
+
+// PADDING
+$padding: 20px;
+$padding-half: 10px;
+
+$border-width: 1px;
+$border-color: $grey6;
+$border-radius: 3px;
+
+// BREAKPOINTS
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 100em; // 1366px
+$bp-xxlarge: 120em; // 1920px
+$bp-huge: 160em; // 2560px
+
+// MEDIA QUERIES
+$mq-xsmall: "max-width: #{$bp-small}"; // less than 768px
+$mq-small: "min-width: #{$bp-small}"; // 769px
+$mq-medium: "min-width: #{$bp-medium}"; // 1024px
+$mq-large: "min-width: #{$bp-large}"; //1366px
+$mq-xlarge: "min-width: #{$bp-xlarge}"; //1600px
+$mq-xxlarge: "min-width: #{$bp-xxlarge}"; // 1920px
+$mq-huge: "min-width: #{$bp-xxlarge}"; // 2560px
+$mq-retina: "-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi";

@@ -1,0 +1,12 @@
+@import "sm-grid";
+@import "md-grid";
+@import "lg-grid";
+
+[class^="sm-col"], [class*=" sm-col"],
+[class^="md-col"], [class*=" md-col"],
+[class^="lg-col"], [class*=" lg-col"] {
+  float: left;
+  // display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}

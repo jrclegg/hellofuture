@@ -1,0 +1,69 @@
+.bg-default{
+  //
+}
+.bg-light{
+  background-color:$grey8;
+}
+.bg-light-grey{
+  background-color:lighten($grey7, 2);
+}
+.bg-grey8{
+  background-color:$grey8;
+}
+.bg-grey7{
+  background-color:$grey7;
+}
+.bg-grey6{
+  background-color:$grey6;
+}
+.bg-grey5{
+  background-color:$grey5;
+}
+.bg-grey4{
+  background-color:$grey4;
+}
+.bg-grey3{
+  background-color:$grey3;
+}
+.bg-grey2{
+  background-color:$grey2;
+}
+.bg-dark2{
+  background-color:$grey3;
+  color:$white;
+}
+.bg-primary{
+  background-color: $color-primary;
+}
+.bg-white{
+  background-color:$white;
+  color:$grey2;
+}
+.bg-danger{
+  background-color: $color-danger;
+  color:$white;
+}
+.bg-warning{
+  background-color: $color-warning;
+  color:$grey2;
+}
+.bg-info{
+  background-color: $color-info;
+  color:$grey2;
+}
+.bg-trans{
+  background: transparent;
+}
+.patterned{
+  background-image: url('~/assets/images/backgrounds/upfeathers_dark.jpg');
+}
+
+.text-white{
+  color: $white !important;
+}
+.text-light{
+  color: $grey6 !important;
+}
+.text-dark{
+  color: $grey2 !important;
+}

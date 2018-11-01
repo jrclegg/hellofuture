@@ -1,0 +1,13 @@
+@import "variables";
+@import "utils";
+@import "grid/grid";
+@import "colors";
+@import "padding";
+@import "margin";
+@import "styles";
+
+html,
+body,
+#app{
+    min-height:100vh;
+}
