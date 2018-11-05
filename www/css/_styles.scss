@@ -53,7 +53,7 @@
 }
 
 .dijon-title {
-  font-family: Source Sans Pro SemiBold;
+  font-family: Source Sans Pro;
   font-size: 35px;
   .dijon-title-snippet {
      color:  $color-primary;
@@ -84,4 +84,39 @@
     font-family: Source Sans Pro SemiBold;
     font-size: 20px;
     border-radius: 5px;
+  }
+
+  .web-dev-section {
+    background-color: $color-tertiary;
+
+    .web-dev-title-snippet {
+        color:  $color-primary;
+    }
+    h1 {
+      font-family: Source Sans Pro;
+      font-size: 35px;
+    }
+
+    ul li {
+      font-family: Source Sans Pro Bold;
+      font-size: 20px;
+      list-style-type: none;
+      color: #2C2D3E;
+      margin: $space-1;
+      img {
+      margin-right: $space-1;
+      }
+    }
+    p {
+      font-family: Source Sans Pro;
+      color: #7792AE;
+      font-size: 18px;
+    }
+    .contact-us-button {
+      background-color: $color-secondary;
+      color: $white;
+      font-family: Source Sans Pro SemiBold;
+      font-size: 20px;
+      border-radius: 5px;
+    }
   }
