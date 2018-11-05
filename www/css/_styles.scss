@@ -239,3 +239,25 @@
       }
     }
   }
+
+  .news-container {
+    .news-title {
+      font-family: Source Sans Pro;
+      text-align: center;
+      font-size: 35px;
+    }
+    .news-section {
+      background-color: #EE5289;
+      border-radius: 5px;
+    }
+    .news-subtitle {
+      font-family: Source Sans Pro;
+      font-size: 26px;
+      color: white;
+    }
+    p {
+      font-family: Source Sans Pro;
+      font-size: 16px;
+      color: white;
+    }
+  }
