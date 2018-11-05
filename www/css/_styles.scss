@@ -216,3 +216,26 @@
       border-radius: 5px;
     }
   }
+
+  .quotes-container {
+    background-color: $color-primary;
+    .quotes-title {
+      font-family: Source Sans Pro;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    p {
+      font-family: Source Sans Pro;
+      font-size: 16px;
+      color: white;
+    }
+    .quotes-section {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 3%;
+      .quotes-description {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 3%;
+      }
+    }
+  }
