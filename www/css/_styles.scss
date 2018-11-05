@@ -184,3 +184,35 @@
       border-radius: 5px;
     }
   }
+
+  .dinosauraas-section {
+    h1 {
+      font-family: Source Sans Pro;
+      font-size: 35px;
+    }
+    .dinosauraas-title-snippet {
+      color:  $color-primary;
+    }
+    p {
+      font-family: Source Sans Pro;
+      color: #7792AE;
+      font-size: 18px;
+    }
+     ul li {
+      font-family: Source Sans Pro;
+      font-size: 20px;
+      list-style-type: none;
+      color: #2C2D3E;
+      margin: $space-1;
+      img {
+      margin-right: $space-1;
+      }
+    }
+    .dinosauraas-button {
+      background-color: $color-secondary;
+      color: $white;
+      font-family: Source Sans Pro SemiBold;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+  }
