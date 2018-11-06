@@ -300,3 +300,30 @@
       }
     }
   }
+
+.contact-form-container {
+  .contact-form-section{
+    h1 {
+      font-family: Source Sans Pro;
+      font-size: 35px;
+    }
+    h2 {
+      font-family: Proxima Nova;
+      font-size: 18px;
+    }
+
+    input {
+      border-color: $color-primary;
+    }
+    textarea {
+      border-color: $color-primary;
+    }
+    .submit-button {
+      background-color: $color-secondary;
+      color: $white;
+      font-family: Source Sans Pro;
+      font-size: 20px;
+      border-radius: 5px;
+    }
+  }
+}
