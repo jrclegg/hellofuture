@@ -248,7 +248,7 @@
     }
     .news-section {
       background-color: #EE5289;
-      border-radius: 5px;
+      border-radius: 10px;
     }
     .news-subtitle {
       font-family: Source Sans Pro;
@@ -259,5 +259,44 @@
       font-family: Source Sans Pro;
       font-size: 16px;
       color: white;
+    }
+  }
+
+  .contact-us-container {
+      background-color: $color-tertiary;
+  
+    .contact-title {
+      text-align: center;
+      font-family: Source Sans Pro;
+      font-size: 35px;
+    }
+    .phone-section {
+      background-color: $color-primary;
+      border-radius: 10px;
+      color: white;
+      .phone-title {
+        font-family: Source Sans Pro;
+      }
+      p {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
+    }
+    .office-section {
+      background-color: $color-primary;
+      border-radius: 10px;
+      color: white;
+      h1 {
+        font-family: Source Sans Pro;
+      }
+      .address {
+        font-family: Source Sans Pro;
+        font-size: 26px;
+        list-style-type: none;
+      }
+      p {
+        font-family: Source Sans Pro;
+        font-size: 16px;
+      }
     }
   }
