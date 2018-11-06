@@ -1,3 +1,6 @@
+html, body {
+  margin: auto;
+}
 
 .nav-container {
   .nav-menu {
@@ -325,5 +328,14 @@
       font-size: 20px;
       border-radius: 5px;
     }
+  }
+}
+
+.footer-section {
+  background-color: $color-primary;
+  p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    color: white;
   }
 }
