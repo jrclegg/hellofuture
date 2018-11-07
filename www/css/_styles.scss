@@ -130,15 +130,40 @@ html, body {
   @media only screen and (max-width: 1024px) {
       margin-left: $space-3;
       margin-top: $space-1;
-    }
+  }
 }
 
   .web-dev-section {
     background-color: $color-tertiary;
 
+    .web-title {
+      @media only screen and (max-width: 1024px) {
+        text-align: center;
+        margin: auto;
+        padding-bottom: $space-1;
+      }
+    }
+
     .web-dev-title-snippet {
         color:  $color-primary;
     }
+    .web-description {
+      @media only screen and (max-width: 1024px) {
+        padding-right: $space-2;
+      }
+    }
+    .coding-languages {
+      @media only screen and (max-width: 1024px) {
+        padding-left: $space-1;
+      }
+    }
+    .web-image {
+      @media only screen and (max-width: 1024px) {
+        padding-right: $space-4;
+        margin: auto;
+      }
+    }
+
     h1 {
       font-family: $default-font;
       font-size: 35px;
