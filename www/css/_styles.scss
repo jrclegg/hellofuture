@@ -345,8 +345,20 @@ html, body {
       .quote-four {
         padding-bottom: $space-2;
       }
+      .quote-three {
+         @media only screen and (max-width: 1024px) {
+          padding-bottom: $space-2;
+        }
+      }
       .quote-image {
-        padding-top: $space-2;
+        padding-top: $space-1;
+        margin-left: $space-1;
+      }
+      .quoted-person {
+        padding-left: $space-2;
+         @media only screen and (max-width: 1024px) {
+          padding-left: 5rem;
+        }
       }
     }
   }
