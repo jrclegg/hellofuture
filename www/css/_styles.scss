@@ -56,7 +56,7 @@ html, body {
 
   .services-image {
     padding-top: $space-4;
-    @media only screen and (max-width: 640px) {
+    @media only screen and (max-width: 1024px) {
       padding-right: $space-3;
       padding-top: $space-1;
     }
