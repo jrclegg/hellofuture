@@ -322,19 +322,31 @@ html, body {
       color: white;
       padding-left: $space-2;
       padding-right: $space-2;
+      margin: $space-1;
     }
     .quotes-section {
       background-color: rgba(255, 255, 255, 0.1);
       border-radius: 10px;
+      margin-bottom: $space-2;
       .quotes-description {
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 10px;
         margin: auto;
+        padding-top: $space-1;
+        font-family: $default-font;
+        line-height: 2;
+      }
+      .quote-one {
         padding-bottom: $space-4;
-        padding-top: $space-2;
+      }
+      .quote-two {
+        padding-bottom: $space-2;
+      }
+      .quote-four {
+        padding-bottom: $space-2;
       }
       .quote-image {
-        padding-top: $space-1;
+        padding-top: $space-2;
       }
     }
   }
