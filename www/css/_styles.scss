@@ -1,5 +1,17 @@
+
 html, body {
   margin: auto;
+}
+.button {
+    background-color: $color-secondary;
+    color: $white;
+    border-color: #979797;
+    font-family: $default-font;
+    font-size: 20px;
+    border-radius: 5px;
+    @media only screen and (max-width: 640px) {
+      margin-left: auto;
+    }
 }
 
 .nav-container {
@@ -8,7 +20,7 @@ html, body {
   li {
     list-style-type: none;
     display: inline;
-    font-family: Source Sans Pro;
+    font-family: $default-font;
     font-size: 20px;
     padding: $space-1;
   }
@@ -20,35 +32,51 @@ html, body {
 }
 .block-1-left {
   .services-title {
-    font-family: Source Sans Pro;
+    font-family: $default-font ;
     font-size: 49px;
     color: $white;
+    @media only screen and (max-width: 640px) {
+      font-size: 30px;
+      margin: auto;
+      padding: auto;
+	  }
   }
   .services-description {
-    font-family: Source Sans Pro regular;
+    font-family: $default-font ;
     font-size: 22px;
     color: $white;
     margin-top: -5rem;
-  }
-  .services-button {
-    background-color: $color-secondary;
-    color: $white;
-    border-color: #979797;
-    font-family: Source Sans Pro SemiBold;
-    font-size: 20px;
-    border-radius: 5px;
+    @media only screen and (max-width: 640px){
+      margin: auto;
+      padding-right: $space-4;
+    }
   }
 }
 
+
+  .services-image {
+    padding-top: $space-4;
+    @media only screen and (max-width: 640px) {
+      padding-right: $space-3;
+      padding-top: $space-1;
+    }
+  }
+
+
 .quote-container {
     .services-quote {
-    font-family: Source Sans Pro SemiBold;
+    font-family: $default-font;
     color: $white;
     font-size: 39px;
     text-align: center;
+    @media only screen and (max-width: 640px) {
+      font-size: 30px;
+      margin: auto;
+      padding: auto;
+	  }
   }
   .services-quote-author {
-    font-family: Source Sans Pro regular;
+    font-family: $default-font;
     font-size: 30px;
     color: $white;
     text-align: center;
@@ -56,7 +84,7 @@ html, body {
 }
 
 .dijon-title {
-  font-family: Source Sans Pro;
+  font-family: $default-font;
   font-size: 35px;
   .dijon-title-snippet {
      color:  $color-primary;
@@ -64,7 +92,7 @@ html, body {
 }
 
 .dijon-description {
-  font-family: Source Sans Pro regular;
+  font-family: $default-font;
   font-size: 18px;
   color: #7792AE;
 }
@@ -72,7 +100,7 @@ html, body {
 .dijon-projects {
   li {
     list-style-type: none;
-    font-family: Source Sans Pro SemiBold;
+    font-family: $default-font;
     font-size: 20px;
     margin: $space-1;
     img {
@@ -80,15 +108,6 @@ html, body {
     }
   }
 }
-
-  .dijon-button {
-    background-color: $color-secondary;
-    color: $white;
-    font-family: Source Sans Pro SemiBold;
-    font-size: 20px;
-    border-radius: 5px;
-  }
-
   .web-dev-section {
     background-color: $color-tertiary;
 
@@ -96,12 +115,12 @@ html, body {
         color:  $color-primary;
     }
     h1 {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 35px;
     }
 
     ul li {
-      font-family: Source Sans Pro Bold;
+      font-family: $default-font;
       font-size: 20px;
       list-style-type: none;
       color: #2C2D3E;
@@ -111,34 +130,27 @@ html, body {
       }
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
-    }
-    .contact-us-button {
-      background-color: $color-secondary;
-      color: $white;
-      font-family: Source Sans Pro SemiBold;
-      font-size: 20px;
-      border-radius: 5px;
     }
   }
 
   .devops-section {
     h1 {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 35px;
       .devops-title-snippet {
         color:  $color-primary;
       }
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
     }
     ul li {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 20px;
       list-style-type: none;
       color: #2C2D3E;
@@ -146,31 +158,23 @@ html, body {
       img {
       margin-right: $space-1;
       }
-    }
-
-    .devops-button {
-      background-color: $color-secondary;
-      color: $white;
-      font-family: Source Sans Pro SemiBold;
-      font-size: 20px;
-      border-radius: 5px;
     }
   }
 
   .startup-section {
     background-color: $color-tertiary;
     h1 {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 35px;
       color:  $color-primary;
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
     }
      ul li {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 20px;
       list-style-type: none;
       color: #2C2D3E;
@@ -179,30 +183,23 @@ html, body {
       margin-right: $space-1;
       }
     }
-    .startup-button {
-      background-color: $color-secondary;
-      color: $white;
-      font-family: Source Sans Pro SemiBold;
-      font-size: 20px;
-      border-radius: 5px;
-    }
   }
 
   .dinosauraas-section {
     h1 {
-      font-family: Source Sans Pro;
+      font-family: So$default-font;
       font-size: 35px;
     }
     .dinosauraas-title-snippet {
       color:  $color-primary;
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
     }
      ul li {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 20px;
       list-style-type: none;
       color: #2C2D3E;
@@ -211,25 +208,18 @@ html, body {
       margin-right: $space-1;
       }
     }
-    .dinosauraas-button {
-      background-color: $color-secondary;
-      color: $white;
-      font-family: Source Sans Pro SemiBold;
-      font-size: 20px;
-      border-radius: 5px;
-    }
   }
 
   .quotes-container {
     background-color: $color-primary;
     .quotes-title {
-      font-family: Source Sans Pro;
+      font-family: S$default-font;
       text-align: center;
       font-size: 35px;
       color: white;
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 16px;
       color: white;
     }
@@ -245,7 +235,7 @@ html, body {
 
   .news-container {
     .news-title {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       text-align: center;
       font-size: 35px;
     }
@@ -254,12 +244,12 @@ html, body {
       border-radius: 10px;
     }
     .news-subtitle {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 26px;
       color: white;
     }
     p {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 16px;
       color: white;
     }
@@ -270,7 +260,7 @@ html, body {
   
     .contact-title {
       text-align: center;
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 35px;
     }
     .phone-section {
@@ -278,10 +268,10 @@ html, body {
       border-radius: 10px;
       color: white;
       .phone-title {
-        font-family: Source Sans Pro;
+        font-family: $default-font;
       }
       p {
-        font-family: Source Sans Pro;
+        font-family: $default-font;
         font-size: 16px;
       }
     }
@@ -290,15 +280,15 @@ html, body {
       border-radius: 10px;
       color: white;
       h1 {
-        font-family: Source Sans Pro;
+        font-family: $default-font;
       }
       .address {
-        font-family: Source Sans Pro;
+        font-family: $default-font;
         font-size: 26px;
         list-style-type: none;
       }
       p {
-        font-family: Source Sans Pro;
+        font-family: $default-font;
         font-size: 16px;
       }
     }
@@ -307,7 +297,7 @@ html, body {
 .contact-form-container {
   .contact-form-section{
     h1 {
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 35px;
     }
     h2 {
@@ -324,7 +314,7 @@ html, body {
     .submit-button {
       background-color: $color-secondary;
       color: $white;
-      font-family: Source Sans Pro;
+      font-family: $default-font;
       font-size: 20px;
       border-radius: 5px;
     }
@@ -334,7 +324,7 @@ html, body {
 .footer-section {
   background-color: $color-primary;
   p {
-    font-family: Source Sans Pro;
+    font-family: $default-font;
     font-size: 16px;
     color: white;
   }
