@@ -54,7 +54,7 @@ html, body {
 }
 
 
-  .services-image {
+  .image-one {
     padding-top: $space-4;
     @media only screen and (max-width: 1024px) {
       padding-right: $space-3;
@@ -83,9 +83,20 @@ html, body {
   }
 }
 
+.image-two {
+  padding-left: $space-2;
+    @media only screen and (max-width: 1024px) {
+      padding-right: $space-3;
+    }
+}
+
 .dijon-title {
   font-family: $default-font;
   font-size: 35px;
+  @media only screen and (max-width: 1024px) {
+      text-align: center;
+      padding-top: $space-2;
+    }
   .dijon-title-snippet {
      color:  $color-primary;
   }
@@ -95,6 +106,9 @@ html, body {
   font-family: $default-font;
   font-size: 18px;
   color: #7792AE;
+  @media only screen and (max-width: 1024px) {
+      padding-left: $space-3;
+    }
 }
 
 .dijon-projects {
@@ -107,7 +121,18 @@ html, body {
       margin-right: $space-1;
     }
   }
+  @media only screen and (max-width: 1024px) {
+      padding-left: $space-4;
+    }
 }
+
+.button-1 {
+  @media only screen and (max-width: 1024px) {
+      margin-left: $space-3;
+      margin-top: $space-1;
+    }
+}
+
   .web-dev-section {
     background-color: $color-tertiary;
 
