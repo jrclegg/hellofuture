@@ -137,12 +137,11 @@ html, body {
     background-color: $color-tertiary;
 
     .web-title {
-      @media only screen and (max-width: 1024px) {
-        text-align: center;
+      @media only screen and (max-width: 1024px) { 
         margin: auto;
         padding-bottom: $space-1;
       }
-    }
+    } 
 
     .web-dev-title-snippet {
         color:  $color-primary;
@@ -186,28 +185,49 @@ html, body {
     }
   }
 
+  .devops-image {
+      @media only screen and (max-width: 1024px) {
+        padding-right: $space-4;
+      }
+    }
+
   .devops-section {
-    h1 {
+    padding-left: $space-4;
+    padding-right: $space-4;
+    .devops-title {
       font-family: $default-font;
       font-size: 35px;
       .devops-title-snippet {
         color:  $color-primary;
       }
     }
-    p {
+    .devops-description {
       font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
-    }
-    ul li {
-      font-family: $default-font;
-      font-size: 20px;
-      list-style-type: none;
-      color: #2C2D3E;
-      margin: $space-1;
-      img {
-      margin-right: $space-1;
+      @media only screen and (max-width: 1024px) {
+        padding-right: $space-2;
       }
+    }
+    .devops-list{
+      li {
+        font-family: $default-font;
+        font-size: 20px;
+        list-style-type: none;
+        color: #2C2D3E;
+        margin: $space-1;
+        img {
+        margin-right: $space-1;
+        }
+      }
+      @media only screen and (max-width: 1024px) {
+        padding-left: $space-1;
+        padding-top: $space-1;
+        padding-bottom: $space-1;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      padding: 0;
     }
   }
 
