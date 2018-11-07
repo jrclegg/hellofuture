@@ -243,14 +243,25 @@ html, body {
       color: #7792AE;
       font-size: 18px;
     }
-     ul li {
-      font-family: $default-font;
-      font-size: 20px;
-      list-style-type: none;
-      color: #2C2D3E;
-      margin: $space-1;
-      img {
-      margin-right: $space-1;
+    .startup-list{
+      padding-left: $space-1;
+      li {
+        font-family: $default-font;
+        font-size: 20px;
+        list-style-type: none;
+        color: #2C2D3E;
+        margin: $space-1;
+        img {
+          margin-right: $space-1;
+        }
+      }
+    } 
+    .startup-image {
+      padding-right: $space-4;
+      padding-bottom: $space-4;
+      @media only screen and (max-width: 1024px) {
+        padding-right: $space-4;
+        padding-left: $space-4;
       }
     }
   }
