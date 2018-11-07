@@ -311,7 +311,7 @@ html, body {
   .quotes-container {
     background-color: $color-primary;
     .quotes-title {
-      font-family: S$default-font;
+      font-family: $default-font;
       text-align: center;
       font-size: 35px;
       color: white;
@@ -320,13 +320,18 @@ html, body {
       font-family: $default-font;
       font-size: 16px;
       color: white;
+      padding-left: $space-2;
+      padding-right: $space-2;
     }
     .quotes-section {
       background-color: rgba(255, 255, 255, 0.1);
-      border-radius: 3%;
+      border-radius: 10px;
       .quotes-description {
         background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 3%;
+        border-radius: 10px;
+        margin: auto;
+        padding-bottom: $space-4;
+        padding-top: $space-2;
       }
     }
   }
