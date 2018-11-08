@@ -364,31 +364,45 @@ html, body {
   }
 
   .news-container {
-    .news-title {
-      font-family: $default-font;
-      text-align: center;
-      font-size: 35px;
-    }
-    .news-section {
-      background-color: #EE5289;
-      border-radius: 10px;
-      .crop {
-        height: 400px;
-        overflow: hidden;
+    .row {
+      padding-left: $space-4; 
+      padding-right: $space-4;
+       @media only screen and (max-width: 1024px) {
+         padding-left: 0;
+         padding-right: 0;
+         margin-right: 0;
       }
-      .crop img {
-        height: 100%;
+      .news-title {
+        font-family: $default-font;
+        text-align: center;
+        font-size: 35px;
       }
-    }
-    .news-subtitle {
-      font-family: $default-font;
-      font-size: 26px;
-      color: white;
-    }
-    p {
-      font-family: $default-font;
-      font-size: 16px;
-      color: white;
+      .news-section {
+        background-color: #EE5289;
+        border-radius: 10px;
+        margin-left: $space-3;
+        @media only screen and (max-width: 1024px) {
+         margin-bottom: $space-2;
+         margin-left: $space-4;
+        }
+        .crop {
+          height: 400px;
+          overflow: hidden;
+        }
+        .crop img {
+          height: 100%;
+        }
+      }
+      .news-subtitle {
+        font-family: $default-font;
+        font-size: 26px;
+        color: white;
+      }
+      p {
+        font-family: $default-font;
+        font-size: 16px;
+        color: white;
+      }
     }
   }
 
