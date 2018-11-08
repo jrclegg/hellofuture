@@ -357,7 +357,7 @@ html, body {
       .quoted-person {
         padding-left: $space-2;
          @media only screen and (max-width: 1024px) {
-          padding-left: 5rem;
+          padding-left: rem;
         }
       }
     }
@@ -372,6 +372,13 @@ html, body {
     .news-section {
       background-color: #EE5289;
       border-radius: 10px;
+      // .crop {
+      //   height: 400px;
+      //   overflow: hidden;
+      // }
+      // .crop img {
+      //   height: 100%;
+      // }
     }
     .news-subtitle {
       font-family: $default-font;
