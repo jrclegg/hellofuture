@@ -5,10 +5,11 @@ html, body {
 .button {
     background-color: $color-secondary;
     color: $white;
-    border-color: #979797;
     font-family: $default-font;
     font-size: 20px;
     border-radius: 5px;
+    padding-left: $space-4;
+    padding-right: $space-4;
 }
 
 .nav-container {
@@ -145,6 +146,8 @@ html, body {
 }
 
 .dijon-projects {
+  margin-left: -3rem;
+  padding-bottom: $space-1;
   li {
     list-style-type: none;
     font-family: $default-font;
@@ -185,6 +188,7 @@ html, body {
       }
     }
     .coding-languages {
+      margin-left: -3rem;
       @media only screen and (max-width: 1024px) {
         padding-left: $space-1;
       }
@@ -243,6 +247,7 @@ html, body {
       }
     }
     .devops-list{
+      margin-left: -3rem;
       li {
         font-family: $default-font;
         font-size: 20px;
@@ -320,6 +325,7 @@ html, body {
       }
     }
      .dinosaur-list{
+       margin-left: -3rem;
        li {
          font-family: $default-font;
          font-size: 20px;
