@@ -13,15 +13,51 @@ html, body {
 
 .nav-container {
   .nav-menu {
-  float: right;
+    float: right;
   li {
     list-style-type: none;
     display: inline;
     font-family: $default-font;
     font-size: 20px;
     padding: $space-1;
+    a {
+      text-decoration: none;
+    }
+    @media screen and (max-width: 1300px) {
+      a {
+        display: none;
+      }
+    }
+    .active {
+      padding-bottom: $space-1;
+      border-bottom: 3px solid #00E0C4;
+    }
+    .icon {
+      display: none;
+    }
+     @media screen and (max-width: 1300px) {
+      .icon {
+        float: right;
+        display: block;
+      }
+    }
   }
  }
+  @media screen and (max-width: 1300px) {
+    .nav-menu.responsive {
+      position: relative;
+    }
+      .nav-menu.responsive li a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .nav-menu.responsive li a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+  }
 }
 
 .container-1 {

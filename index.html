@@ -7,6 +7,7 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="public/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,9 +17,9 @@
         <img class="ml3 md-col-4 sm-col-4" src="www/img/Logo2.png" />
       </div>
       <div class="md-col-6 pr3">
-        <ul id="nav-menu" class="nav-menu">
+        <ul id="navMenu" class="nav-menu">
           <li>
-            <a href="#home">Home</a>
+            <a class="active" href="#home">Home</a>
           </li>
           <li>
             <a href="#services">Our Services</a>
@@ -31,6 +32,11 @@
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="makeNavResponsive()">
+              <i class="fa fa-bars"></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -348,3 +354,14 @@
 </body>
 
 </html>
+
+<script>
+  function makeNavResponsive() {
+    const nav = document.getElementById("navMenu");
+    if (nav.className === "nav-menu") {
+      nav.className += " responsive";
+    } else {
+      nav.className = "nav-menu";
+    }
+  }
+</script>
