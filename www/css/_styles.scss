@@ -418,6 +418,7 @@ html, body {
       background-color: $color-primary;
       border-radius: 10px;
       color: white;
+      height: 400px;
       .phone-title {
         font-family: $default-font;
       }
@@ -430,6 +431,13 @@ html, body {
       background-color: $color-primary;
       border-radius: 10px;
       color: white;
+       .crop {
+          height: 400px;
+          overflow: hidden;
+        }
+        .crop img {
+          height: 100%;
+        }
       h1 {
         font-family: $default-font;
       }
