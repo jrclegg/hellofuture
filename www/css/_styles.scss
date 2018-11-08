@@ -372,13 +372,13 @@ html, body {
     .news-section {
       background-color: #EE5289;
       border-radius: 10px;
-      // .crop {
-      //   height: 400px;
-      //   overflow: hidden;
-      // }
-      // .crop img {
-      //   height: 100%;
-      // }
+      .crop {
+        height: 400px;
+        overflow: hidden;
+      }
+      .crop img {
+        height: 100%;
+      }
     }
     .news-subtitle {
       font-family: $default-font;
