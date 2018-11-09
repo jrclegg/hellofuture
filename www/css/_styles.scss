@@ -378,6 +378,17 @@ html, body {
         padding-top: $space-1;
         font-family: $default-font;
         line-height: 2;
+        position: relative;
+      }
+      .quotes-description:before {
+        position: absolute;
+        bottom: 48%;
+        bottom: -10px;
+        content: '';
+        margin: -5px 0 0;
+        border-top: solid 10px rgba(255, 255, 255, 0.3);
+          border-left: solid 9px transparent;
+          border-right: solid 9px transparent;  
       }
       .quote-one {
         padding-bottom: $space-4;
