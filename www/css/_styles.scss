@@ -68,30 +68,22 @@ html, body {
     background-color: $color-primary; 
   .home-left-section {
     .services-title {
-      font-family: $default-font ;
+      font-family: $default-font;
       font-size: 49px;
       color: $white;
-      @media only screen and (max-width: 640px) {
-        font-size: 30px;
-        margin: auto;
-        padding: auto;
-      }
     }
     .services-description {
       font-family: $default-font;
       font-size: 22px;
       color: $white;
       margin-top: -5rem;
-      @media only screen and (max-width: 640px){
-        margin: auto;
-        padding-right: $space-4;
-      }
     }
   }
   .image-one {
     padding-top: $space-4;
     @media only screen and (max-width: 1024px) {
       padding-right: $space-3;
+      padding-left: $space-3;
       padding-top: $space-1;
     }
   }
