@@ -5,7 +5,7 @@ html, body {
 .button {
     background-color: $color-secondary;
     color: $white;
-    font-family: $default-font;
+    font-family: $secondary-font;
     font-size: 20px;
     border-radius: 5px;
     padding-left: $space-4;
@@ -23,6 +23,7 @@ html, body {
     padding: $space-1;
     a {
       text-decoration: none;
+      color: #2C2D3E;
     }
     @media screen and (max-width: 1300px) {
       a {
@@ -99,7 +100,7 @@ html, body {
 
 .quote-container {
     .services-quote {
-    font-family: $default-font;
+    font-family: $secondary-font;
     color: $white;
     font-size: 39px;
     text-align: center;
@@ -125,7 +126,7 @@ html, body {
 }
 
 .dijon-title {
-  font-family: $default-font;
+  font-family: $secondary-font;
   font-size: 35px;
   @media only screen and (max-width: 1024px) {
       text-align: center;
@@ -150,7 +151,7 @@ html, body {
   padding-bottom: $space-1;
   li {
     list-style-type: none;
-    font-family: $default-font;
+    font-family: $secondary-font;
     font-size: 20px;
     margin: $space-1;
     img {
@@ -171,8 +172,8 @@ html, body {
 
   .web-dev-section {
     background-color: $color-tertiary;
-
     .web-title {
+      font-family: $secondary-font;
       @media only screen and (max-width: 1024px) { 
         margin: auto;
         padding-bottom: $space-1;
@@ -206,7 +207,7 @@ html, body {
     }
 
     ul li {
-      font-family: $default-font;
+      font-family: $secondary-font;
       font-size: 20px;
       list-style-type: none;
       color: #2C2D3E;
@@ -232,7 +233,7 @@ html, body {
     padding-left: $space-4;
     padding-right: $space-4;
     .devops-title {
-      font-family: $default-font;
+      font-family: $secondary-font;
       font-size: 35px;
       .devops-title-snippet {
         color:  $color-primary;
@@ -249,7 +250,7 @@ html, body {
     .devops-list{
       margin-left: -3rem;
       li {
-        font-family: $default-font;
+        font-family: $secondary-font;
         font-size: 20px;
         list-style-type: none;
         color: #2C2D3E;
@@ -272,7 +273,7 @@ html, body {
   .startup-section {
     background-color: $color-tertiary;
     h1 {
-      font-family: $default-font;
+      font-family: $secondary-font;
       font-size: 35px;
       color:  $color-primary;
     }
@@ -284,7 +285,7 @@ html, body {
     .startup-list{
       padding-left: $space-1;
       li {
-        font-family: $default-font;
+        font-family: $secondary-font;
         font-size: 20px;
         list-style-type: none;
         color: #2C2D3E;
@@ -306,7 +307,7 @@ html, body {
 
   .dinosauraas-section {
     .dinosaur-title {
-      font-family: $default-font;
+      font-family: $secondary-font;
       font-size: 35px;
       @media only screen and (max-width: 1024px) {
         padding-left: $space-4;
@@ -327,7 +328,7 @@ html, body {
      .dinosaur-list{
        margin-left: -3rem;
        li {
-         font-family: $default-font;
+         font-family: $secondary-font;
          font-size: 20px;
          list-style-type: none;
          color: #2C2D3E;
@@ -353,7 +354,7 @@ html, body {
   .quotes-container {
     background-color: $color-primary;
     .quotes-title {
-      font-family: $default-font;
+      font-family: $tertiary-font;
       text-align: center;
       font-size: 35px;
       color: white;
@@ -398,6 +399,9 @@ html, body {
       }
       .quoted-person {
         padding-left: $space-2;
+        .name {
+          font-family: $tertiary-font;
+        }
          @media only screen and (max-width: 1024px) {
           padding-left: rem;
         }
@@ -415,7 +419,7 @@ html, body {
          margin-right: 0;
       }
       .news-title {
-        font-family: $default-font;
+        font-family: $tertiary-font;
         text-align: center;
         font-size: 35px;
       }
@@ -436,7 +440,7 @@ html, body {
         }
       }
       .news-subtitle {
-        font-family: $default-font;
+        font-family: $tertiary-font;
         font-size: 26px;
         color: white;
       }
@@ -466,7 +470,7 @@ html, body {
          margin-left: 4rem;
       }   
       .phone-title {
-        font-family: $default-font;
+        font-family: $tertiary-font;
       }
       p {
         font-family: $default-font;
@@ -485,11 +489,11 @@ html, body {
           height: 100%;
         }
       h1 {
-        font-family: $default-font;
+        font-family: $tertiary-font;
       }
       .address {
         font-family: $default-font;
-        font-size: 26px;
+        font-size: 24px;
         list-style-type: none;
       }
       p {
@@ -502,7 +506,7 @@ html, body {
 .contact-form-container {
   .contact-form-section{
     h1 {
-      font-family: $default-font;
+      font-family: $tertiary-font;
       font-size: 35px;
     }
     h2 {
