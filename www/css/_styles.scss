@@ -66,6 +66,11 @@ html, body {
 
 .homeContainer {
     background-color: $color-primary; 
+    overflow: hidden;
+    clip-path: ellipse(170% 100% at 50% 0%);
+    @media screen and (max-width: 1300px){
+      clip-path: ellipse(220% 100% at 50% 0%);
+    }
   .home-left-section {
     .services-title {
       font-family: $default-font;
@@ -88,8 +93,13 @@ html, body {
     }
   }
   .main-quote-section {
-    background-image: url("/projects/hellofuture/hellofuture3/www/img/Rectangle.png");
-    background-size: cover;
+      background-image: url("/projects/hellofuture/hellofuture3/www/img/Rectangle.png");
+			background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+       @media screen and (max-width: 1900px){
+         background-position: center center;
+        }
     .main-quote {
       font-family: $secondary-font;
       color: $white;
@@ -107,7 +117,7 @@ html, body {
       color: $white;
       text-align: center;
     }
-  }
+  } 
 }
 
 .dijonContainer {
