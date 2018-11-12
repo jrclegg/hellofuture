@@ -528,15 +528,24 @@ html, body {
       font-size: 35px;
     }
     h2 {
-      font-family: Proxima Nova;
+      font-family: 'Proxima Nova';
       font-size: 18px;
     }
-
     input {
       border-color: $color-primary;
     }
+   input::placeholder {
+      color: #7792AE;
+      font-size: 18px;
+      font-family: 'Proxima Nova';
+    }
     textarea {
       border-color: $color-primary;
+    }
+    textarea::placeholder {
+      color: #7792AE;
+      font-size: 18px;
+      font-family: 'Proxima Nova';
     }
     .submit-button {
       background-color: $color-secondary;
