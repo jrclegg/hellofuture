@@ -67,7 +67,7 @@ html, body {
 .homeContainer {
     background-color: $color-primary; 
     overflow: hidden;
-    clip-path: ellipse(170% 100% at 50% 0%);
+    clip-path: ellipse(150% 100% at 50% 0%);
     @media screen and (max-width: 1300px){
       clip-path: ellipse(220% 100% at 50% 0%);
     }
@@ -79,8 +79,9 @@ html, body {
     }
     .services-description {
       font-family: $default-font;
-      font-size: 22px;
+      font-size: 24px;
       color: $white;
+      line-height: 2rem;
       margin-top: -5rem;
     }
   }
@@ -142,6 +143,7 @@ html, body {
     font-family: $default-font;
     font-size: 18px;
     color: #7792AE;
+    line-height: 2rem;
     @media only screen and (max-width: 1024px) {
         padding-left: $space-3;
       }
@@ -215,6 +217,7 @@ html, body {
     }
     .web-description {
       font-family: $default-font;
+      line-height: 2rem;
       color: #7792AE;
       font-size: 18px;
     }
@@ -240,6 +243,7 @@ html, body {
         font-family: $default-font;
         color: #7792AE;
         font-size: 18px;
+        line-height: 2rem;
         @media only screen and (max-width: 1024px) {
           padding-right: $space-2;
         }
@@ -278,6 +282,7 @@ html, body {
       font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
+      line-height: 2rem;
     }
     .startup-list{
       padding-left: $space-1;
@@ -316,6 +321,7 @@ html, body {
       font-family: $default-font;
       color: #7792AE;
       font-size: 18px;
+      line-height: 2rem;
        @media only screen and (max-width: 1024px) {
         padding-left: $space-4;
       }
@@ -452,6 +458,7 @@ html, body {
       p {
         font-family: $default-font;
         font-size: 16px;
+        line-height: 2rem;
         color: $white;
       }
     }
@@ -484,6 +491,7 @@ html, body {
       p {
         font-family: $default-font;
         font-size: 16px;
+        line-height: 2rem
       }
     }
     .office-section {
@@ -508,6 +516,7 @@ html, body {
       p {
         font-family: $default-font;
         font-size: 16px;
+        line-height: 2rem;
       }
     }
   }
@@ -545,5 +554,6 @@ html, body {
     font-family: $default-font;
     font-size: 16px;
     color: $white;
+    line-height: 2rem;
   }
 }
